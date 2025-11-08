@@ -29,7 +29,7 @@ export default function Home() {
                 <div className="text-center">
                     <p className="text-xl font-semibold mb-2">Session Started!</p>
                     <a
-                        href={session.userurl}
+                        href={`https://live-session-app-tutor-arc-assignme-seven.vercel.app/session.userurl`}
                         target="_blank"
                         rel="noreferrer"
                         className="text-blue-500 underline"
