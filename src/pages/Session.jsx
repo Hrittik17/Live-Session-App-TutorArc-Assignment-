@@ -33,10 +33,13 @@ export default function Session() {
     return (
         <div className="flex flex-col items-center justify-center min-h-screen bg-linear-to-r from-gray-700 via-rose-500 to-orange-400">
             <h1 className="text-center text-white text-4xl font-bold mb-4">Live Session</h1>
+
             <video
                 src="https://www.w3schools.com/html/mov_bbb.mp4"
                 controls
-                className="text-center rounded-lg shadow-lg w-[600px]"
+                controlsList="nodownload"
+                className="rounded-lg shadow-lg w-[600px]"
+                playbackRates={[0.5, 1, 1.5, 2]}
             />
         </div>
     )

@@ -38,10 +38,13 @@ export default function Home() {
                     </a>
 
                     <div className="mt-5">
+
                         <video
                             src="https://www.w3schools.com/html/mov_bbb.mp4"
                             controls
+                            controlsList="nodownload"
                             className="rounded-lg shadow-lg w-[600px]"
+                            playbackRates={[0.5, 1, 1.5, 2]}
                         />
                     </div>
                 </div>
